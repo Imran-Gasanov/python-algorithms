@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from typing import List
-
 
 class OnlyProductInteger:
     def __init__(self, value):
@@ -20,7 +18,7 @@ class OnlyProductInteger:
     __repr__ = __str__
 
 
-def product(array: List[OnlyProductInteger]) -> List[OnlyProductInteger]:
+def product(array):
     """
     Time Complexity: O(n)
     Space Complexity: O(n)
@@ -48,10 +46,7 @@ def product(array: List[OnlyProductInteger]) -> List[OnlyProductInteger]:
     return result
 
 
-
-
-
-
 if __name__ == "__main__":
     import doctest
+
     doctest.testmod()
