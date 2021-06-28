@@ -1,4 +1,12 @@
 def nth_prime_numbers(n):
+    """
+        >>> nth_prime_numbers(1) == 2
+        True
+        >>> nth_prime_numbers(6) == 13
+        True
+        >>> nth_prime_numbers(10001) == 104743
+        True
+        """
     list_of_prime_number = []
     curr = 2
     count = 0
@@ -15,4 +23,8 @@ def nth_prime_numbers(n):
     return curr - 1
 
 
-print(nth_prime_numbers(10001))
+if __name__ == "__main__":
+    import doctest
+
+    doctest.testmod()
+
