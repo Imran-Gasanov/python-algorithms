@@ -1,12 +1,12 @@
 def nth_prime_numbers(n):
     """
-        >>> nth_prime_numbers(1) == 2
-        True
-        >>> nth_prime_numbers(6) == 13
-        True
-        >>> nth_prime_numbers(10001) == 104743
-        True
-        """
+    >>> nth_prime_numbers(1) == 2
+    True
+    >>> nth_prime_numbers(6) == 13
+    True
+    >>> nth_prime_numbers(10001) == 104743
+    True
+    """
     list_of_prime_number = []
     curr = 2
     count = 0
