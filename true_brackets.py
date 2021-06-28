@@ -1,10 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-from typing import AnyStr
-
-
-def is_balanced(exp: AnyStr) -> bool:
+def is_balanced(exp):
     """
     Time Complexity: O(n)
     Space complexity: O(n)

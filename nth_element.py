@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-
 def nth_element(array, n):
     """
     Time Complexity: O(n)

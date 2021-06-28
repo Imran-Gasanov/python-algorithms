@@ -1,11 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-from typing import Sequence
-from numbers import Number
-
-
-def binary_search(array: Sequence[Number], value: Number) -> int:
+def binary_search(array, value):
     """
     Time Complexity: O(log n)
     Space Complexity: O(1)

@@ -1,11 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-from typing import List
-from numbers import Real
-
-
-def merge(left: List[Real], right: List[Real]) -> List[Real]:
+def merge(left, right):
     result = []
     i, j = 0, 0
     while i < len(left) and j < len(right):
@@ -20,7 +13,7 @@ def merge(left: List[Real], right: List[Real]) -> List[Real]:
     return result
 
 
-def merge_sort(array: List[Real]) -> List[Real]:
+def merge_sort(array):
     """
     >>> merge_sort([10, 7, 9, 4, 6, 3, 1]) == [1, 3, 4, 6, 7, 9, 10]
     True

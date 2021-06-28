@@ -1,10 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
-from typing import Sequence, Tuple, List
-
-
-def encode(sequence: Sequence) -> Tuple[List, List]:
+def encode(sequence):
     """
     >>> encode('1111122223333') == (['1', '2', '3'], [5, 4, 4])
     True
