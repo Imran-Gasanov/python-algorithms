@@ -1,4 +1,9 @@
 def subarraysDivByK(nums, k):
+    """
+    >>> subarraysDivByK([4,5,0,-2,-3,1], 5) == 7
+    True
+    ([4, 5, 0, -2, -3, 1], [5], [5, 0], [5, 0, -2, -3], [0], [0, -2, -3], [-2, -3])
+    """
     sums = []
     result = 0
     for i in range(len(nums)):
@@ -12,5 +17,7 @@ def subarraysDivByK(nums, k):
     return result
 
 
-print(subarraysDivByK([4, 5, 0, -2, -3, 1], 5))
+if __name__ == "__main__":
+    import doctest
 
+    doctest.testmod()
